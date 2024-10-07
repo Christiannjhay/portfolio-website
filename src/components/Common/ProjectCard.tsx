@@ -37,16 +37,19 @@ export default function ProjectCard(props: any) {
       <Tooltip>
         <TooltipTrigger>
           <div
-            className={`rounded-2xl overflow-hidden group transition-opacity duration-1000 ${
+            className={` overflow-hidden group transition-opacity duration-1000 ${
               isVisible ? "opacity-100" : "opacity-0"
             }`}
             ref={sectionRef}
           >
-            <img
-              src={props.image}
-              alt={props.title}
-              className="w-full h-auto rounded-2xl aspect-video cursor-pointer ease-in-out transform group-hover:scale-105 group-hover:opacity-45 transition duration-300"
-            />
+            <div className=" rounded-2xl overflow-hidden">
+              <img
+                src={props.image}
+                alt={props.title}
+                className="w-full  h-auto aspect-video cursor-pointer ease-in-out transform group-hover:scale-105 group-hover:opacity-45 transition duration-300"
+              />
+            </div>
+
             <div className="text-white pt-3 cursor-pointer transition duration-300 group-hover:text-red-500">
               {props.title}
             </div>
