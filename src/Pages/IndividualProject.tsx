@@ -50,7 +50,7 @@ export default function IndividualProject() {
   }
 
   return (
-    <div className="w-full bg-black min-h-screen text-white">
+    <div className="w-full bg-[#0A0A0A] min-h-screen text-white">
       <div>
         <Header />
       </div>

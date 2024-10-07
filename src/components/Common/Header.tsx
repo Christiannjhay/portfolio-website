@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <div className="w-full p-3 grid grid-cols-12 bg-black ">
+    <div className="w-full p-3 grid grid-cols-12 bg-[#0A0A0A] ">
       <div className="flex col-span-10 md:col-span-4 md:px-20  overflow-hidden">
         <HeaderLogo />
       </div>

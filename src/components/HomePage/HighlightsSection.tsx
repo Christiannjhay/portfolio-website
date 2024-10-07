@@ -28,7 +28,7 @@ export default function HighlightsSection() {
 
   return (
     <div>
-      <div className=" font-GeomBold px-5 bg-black py-10">
+      <div className=" font-GeomBold px-5 bg-[#0A0A0A] py-10">
         <div className="flex justify-between pb-10 pr-10">
           <h1 className="text-white flex flex-col sm:flex-row gap-2 tracking-wider md:text-lg lg:text-2xl">
             <h1 className="underline-offset-[10px] underline decoration-red-500 decoration-[3.5px]">Project Highlights</h1>

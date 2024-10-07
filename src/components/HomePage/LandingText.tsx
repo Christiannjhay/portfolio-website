@@ -11,6 +11,7 @@ export default function LandingText() {
       </div>
       <div className="text-sm sm:text-lg md:text-xl lg:text-2xl pt-2 w-2/3 font-GeomRegular text-red-500 text-center font-light">
         <h2>I make the complex simple</h2>
+       
       </div>
       <div className="">
         <button className="text-white px-[2px] py-[2px] btn font-GeomRegular text-[10px] md:text-sm rounded-3xl bg-red-500 hover:bg-red-700">

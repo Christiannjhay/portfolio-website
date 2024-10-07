@@ -9,7 +9,7 @@ import LandingSection from "@/components/HomePage/LandingSection";
 
 export default function HomePage() {
   return (
-    <div className="w-full bg-black min-h-screen flex flex-col items-center">
+    <div className="w-full bg-[#0A0A0A] min-h-screen flex flex-col items-center">
       <div className="w-full sticky top-0 z-50">
         <Header />
       </div>

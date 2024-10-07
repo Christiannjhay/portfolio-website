@@ -5,8 +5,8 @@ import Footer from "@/components/Common/Footer";
 
 export default function ProjectPage() {
   return (
-    <div className=" w-full bg-black min-h-screen">
-      <div>
+    <div className="relative w-full bg-[#0A0A0A] min-h-screen">
+      <div className="w-full sticky top-0 z-50">
         <Header />
       </div>
       <div className="">
@@ -16,6 +16,7 @@ export default function ProjectPage() {
         <Footer />
       </div>
       <ScrollToTop />
+      <div className="absolute inset-0 w-40 h-40 rounded-full blur-[50px] opacity-15 bg-red-500"></div>
     </div>
   );
 }
