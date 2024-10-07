@@ -2,6 +2,7 @@ import { ResumeIcon } from "@/assets/Icons/Resume";
 import SideSheetMenu from "../Header/SideSheetMenu";
 import HeaderNavigation from "../Header/HeaderNavigation";
 import HeaderLogo from "../Header/HeaderLogo";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -14,7 +15,13 @@ export default function Header() {
       </div>
       <div className="col-span-2 gap-2 justify-end items-center text-white flex md:hidden ">
         <div className="text-xs p-2 bg-red-500 rounded-lg">
-          <ResumeIcon />
+          <Link
+            to={
+              "https://drive.google.com/uc?export=download&id=1qLwIi72ozxUNK1oG8hdWwYlPcQUp_QPc"
+            }
+          >
+            <ResumeIcon />
+          </Link>
         </div>
         <div>
           <SideSheetMenu />

@@ -14,9 +14,15 @@ export default function HeaderNavigation() {
       </li>
 
       <div>
-        <button className="bg-red-500 px-3 rounded-xl hover:bg-red-700">
-          Resume
-        </button>
+        <Link
+          to={
+            "https://drive.google.com/uc?export=download&id=1qLwIi72ozxUNK1oG8hdWwYlPcQUp_QPc"
+          }
+        >
+          <button className="bg-red-500 px-3 rounded-xl hover:bg-red-700">
+            Resume
+          </button>
+        </Link>
       </div>
     </nav>
   );
