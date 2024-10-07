@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function LandingText() {
   return (
-    <div className="select-none cursor-pointer w-full md:w-4/6 lg:w-3/6 flex flex-col justify-center items-center sm:gap-2 md:gap-3">
+    <div className="select-none cursor-pointer w-full md:w-4/6 lg:w-3/6 flex flex-col justify-center items-center gap-1 sm:gap-2 md:gap-3">
       <div className="text-md sm:text-lg md:text-xl lg:text-2xl font-GeomLight font-semibold text-white">
         <h1>Hi I'm Christian</h1>
       </div>
