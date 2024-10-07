@@ -7,7 +7,8 @@ import { PhoneIcon } from "@/assets/Icons/Phone";
 export default function IntroductionSection() {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
-
+ 
+  
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -69,12 +70,15 @@ export default function IntroductionSection() {
           </div>
         </h3>
       </div>
-      <div className=" flex lg:flex-1 justify-center">
+      <div className="relative z-50 flex lg:flex-1 justify-center">
         <img
           src={image}
           alt="A brief description of the image"
           className="w-3/4 object-cover sm:w-2/3 opacity-35 md:w-3/6 lg:w-5/6 xl:w-4/6"
         />
+      </div>
+      <div className="absolute justify-center inset-0 w-full h-full flex z-0 top-[-115%]">
+          <div className="h-[145%] w-[90%] blur-[100px] opacity-15 bg-red-500 rounded-full "></div>
       </div>
     </div>
   );

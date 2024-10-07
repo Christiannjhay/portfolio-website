@@ -50,13 +50,13 @@ export default function IndividualProject() {
   }
 
   return (
-    <div className="w-full bg-[#0A0A0A] min-h-screen text-white">
-      <div>
+    <div className="w-full  bg-[#0A0A0A] min-h-screen text-white">
+      <div className="relative z-50">
         <Header />
       </div>
       <div
         ref={carouselRef}
-        className={`w-full flex justify-center p-5 lg:pt-16 transition-opacity duration-1000 ${
+        className={`w-full relative flex z-50 justify-center p-5 lg:pt-16 transition-opacity duration-1000 ${
           isCarouselVisible ? "opacity-100" : "opacity-0"
         }`}
       >
@@ -67,7 +67,7 @@ export default function IndividualProject() {
       </div>
       <div
         ref={detailsRef}
-        className={`flex justify-center pb-20 transition-opacity duration-1000 ${
+        className={`flex relative z-50 justify-center pb-20 transition-opacity duration-1000 ${
           isDetailsVisible ? "opacity-100" : "opacity-0"
         }`}
       >
@@ -82,6 +82,9 @@ export default function IndividualProject() {
       </div>
       <div className="w-full">
         <Footer />
+      </div>
+      <div className="absolute inset-0 w-full h-full flex justify-center items-center z-0">
+        <div className=" inset-0 w-[60%] h-[80%] rounded-full blur-[90px] opacity-20 bg-red-500 "></div>
       </div>
       <ScrollToTop />
     </div>

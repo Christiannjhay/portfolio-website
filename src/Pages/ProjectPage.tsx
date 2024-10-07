@@ -9,14 +9,16 @@ export default function ProjectPage() {
       <div className="w-full sticky top-0 z-50">
         <Header />
       </div>
-      <div className="">
+      <div className="relative z-20">
         <ProjectSection />
       </div>
-      <div className="w-full">
+      <div className="w-full relative z-50">
         <Footer />
       </div>
       <ScrollToTop />
-      <div className="absolute inset-0 w-40 h-40 rounded-full blur-[50px] opacity-15 bg-red-500"></div>
+      <div className="absolute flex justify-center inset-0 w-full h-full">
+        <div className="h-[80%] w-[80%] blur-[100px] translate-x-[-90%] inset-0 opacity-15 bg-red-500 rounded-full"></div>
+      </div>
     </div>
   );
 }
