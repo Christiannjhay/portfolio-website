@@ -26,9 +26,6 @@ export default function HomePage() {
         <HighlightsSection />
       </div>
       <div className="w-full">
-        <ContactUsSection />
-      </div>
-      <div className="w-full">
         <Footer />
       </div>
       <ScrollToTop />
