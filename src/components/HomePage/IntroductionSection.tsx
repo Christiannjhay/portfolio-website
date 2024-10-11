@@ -48,16 +48,16 @@ export default function IntroductionSection() {
   }, [isVisible]);
 
   return (
-    <div className="relative md:py-32 lg:py-48 w-full overflow-x-hidden flex justify-center">
-      <div className="absolute inset-0 w-full h-full z-[1] overflow-hidden flex justify-center items-center">
-        <AnimatedCard />
-      </div>
+    <div className="relative w-full overflow-x-hidden flex justify-center">
       <div
         ref={sectionRef}
-        className={`relative text-white mt-9 text-xl lg:text-4xl xl:text-5xl xl:w-3/4 font-GeomRegular text-center transition-opacity duration-1000 ${
+        className={`relative text-white py-10 sm:py-20 md:py-32 lg:py-40 xl:py-64 w-full h-full mt-9 text-xl lg:text-4xl xl:text-5xl font-GeomRegular text-center transition-opacity duration-1000 ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
+        <div className="absolute inset-0 w-full h-full z-[1] overflow-hidden flex justify-center items-center">
+          <AnimatedCard />
+        </div>
         <h1
           ref={h1Ref}
           className="py-20 px-8 sm:px-24 lg:px-32 xl:px-10 leading-[2rem] z-20 lg:leading-[4rem] relative"

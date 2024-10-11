@@ -1,4 +1,5 @@
 export default function AnimatedCard() {
+    
   return (
     <div className="relative  grid grid-rows-2 gap-1 w-[100%] h-[85%] overflow-hidden">
       <div className="row-span-1 w-full h-full gap-3 pb-2 overflow-hidden  grid grid-cols-12">
