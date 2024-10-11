@@ -249,7 +249,7 @@
   position: absolute;
   width: calc(100% + 6px); 
   height: calc(100% + 7px);
-  background-image: conic-gradient(from var(--angle),  transparent 90%, #EA4B21);
+  background-image: conic-gradient(from var(--angle),  transparent 80%, #EA4B21);
   top: 50%;
   left: 50%;
   translate: -50% -50%;
