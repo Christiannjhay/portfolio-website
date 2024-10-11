@@ -14,7 +14,7 @@ export default function LandingText() {
       </div>
       <div className=" w-full flex justify-center items-center h-full">
         <Link to="/about" className="bg-none p-0">
-          <button className="learn-button text-xs md:text-lg relative text-white px-6 py-2 rounded-3xl font-GeomLight bg-red-500 hover:bg-red-700">
+          <button className=" text-xs md:text-lg relative text-white px-6 py-2 rounded-3xl font-GeomLight bg-red-500 hover:bg-red-700">
             Learn more about me
           </button>
         </Link>
