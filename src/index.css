@@ -150,36 +150,6 @@
     }
   }
 }
-.btn {
-  position: relative;
-  z-index: 100; 
-  overflow: hidden;
-}
-
-.in {
-  z-index: 99; 
-}
-
-.btn::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 2rem;
-  height: 12.5rem;
-  background: yellow;
-  transform: translate(-50%, -50%) rotate(45deg);
-  z-index: -1; 
-  animation: animate 1.2s linear infinite;
-}
-
-@keyframes animate {
-  100%{
-    transform: translate(-50%, -50%) rotate(225deg);
-  }
-}
-
-
 
 .gradient-text {
   background: linear-gradient(90deg, #ff3131, #ff6a6a, #ff9900);
@@ -229,4 +199,100 @@
     --angle: 360deg;
   }
 }
+
+@keyframes spin2 {
+  from{
+    --angle: 0deg;
+  }
+  to{
+    --angle: 360deg;
+  }
+}
+
+@keyframes spin3 {
+  from{
+    --angle: 0deg;
+  }
+  to{
+    --angle: 360deg;
+  }
+}
+
+@keyframes spin4 {
+  from{
+    --angle: 0deg;
+  }
+  to{
+    --angle: 360deg;
+  }
+}
+
+
+.animated-card-1::after, .animated-card-1::before {
+  content: '';
+  position: absolute;
+  width: calc(100% + 5px); 
+  height: calc(100% + 7px);
+  background-image: conic-gradient(from var(--angle),  transparent 90%, yellow);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  border-bottom-right-radius: 10px;
+  animation: 2s spin linear infinite;
+  border: 0.01rem solid rgb(36, 36, 36);
+  box-sizing: border-box;
+}
+
+.animated-card-2::after, .animated-card-2::before {
+  content: '';
+  position: absolute;
+  width: calc(100% + 8px); 
+  height: calc(100% + 6px);
+  background-image: conic-gradient(from var(--angle),  transparent 90%, red);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  border-bottom-left-radius: 10px;
+  animation: 3s spin2 linear infinite;
+  border: 0.01rem solid rgb(36, 36, 36);
+  box-sizing: border-box;
+}
+
+.animated-card-3::after, .animated-card-3::before {
+  content: '';
+  position: absolute;
+  width: calc(100% + 6px); 
+  height: calc(100% + 7px);
+  background-image: conic-gradient(from var(--angle),  transparent 90%, white);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  border-top-right-radius: 10px;
+  animation: 3s spin3 linear infinite;
+  border: 0.01rem solid rgb(36, 36, 36);
+  box-sizing: border-box;
+}
+
+.animated-card-4::after, .animated-card-4::before {
+  content: '';
+  position: absolute;
+  width: calc(100% + 7px); 
+  height: calc(100% + 8px);
+  background-image: conic-gradient(from var(--angle),  transparent 90%, yellow);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  border-top-left-radius: 10px;
+  animation: 3s spin4 linear infinite;
+  border: 0.01rem solid rgb(36, 36, 36);
+  box-sizing: border-box;
+}
+
+
+
+
 
