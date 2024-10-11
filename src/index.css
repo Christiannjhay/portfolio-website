@@ -233,13 +233,29 @@
   position: absolute;
   width: calc(100% + 5px); 
   height: calc(100% + 7px);
-  background-image: conic-gradient(from var(--angle),  transparent 90%, yellow);
+  background-image: conic-gradient(from var(--angle),  transparent 90%, rgb(0, 255, 13));
   top: 50%;
   left: 50%;
   translate: -50% -50%;
   z-index: -1;
   border-bottom-right-radius: 10px;
   animation: 2s spin linear infinite;
+  border: 0.01rem solid rgb(36, 36, 36);
+  box-sizing: border-box;
+}
+
+.animated-card-1-child::after, .animated-card-1-child::before {
+  content: '';
+  position: absolute;
+  width: calc(100% + 6px); 
+  height: calc(100% + 7px);
+  background-image: conic-gradient(from var(--angle),  transparent 90%, #EA4B21);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  border-bottom-right-radius: 10px;
+  animation: 3s spin4 linear infinite;
   border: 0.01rem solid rgb(36, 36, 36);
   box-sizing: border-box;
 }
@@ -260,12 +276,44 @@
   box-sizing: border-box;
 }
 
+.animated-card-2-child::after, .animated-card-1-child::before {
+  content: '';
+  position: absolute;
+  width: calc(100% + 6px); 
+  height: calc(100% + 7px);
+  background-image: conic-gradient(from var(--angle),  transparent 90%, #6920EB);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  border-bottom-left-radius: 10px;
+  animation: 3s spin4 linear infinite;
+  border: 0.01rem solid rgb(36, 36, 36);
+  box-sizing: border-box;
+}
+
 .animated-card-3::after, .animated-card-3::before {
   content: '';
   position: absolute;
   width: calc(100% + 6px); 
   height: calc(100% + 7px);
-  background-image: conic-gradient(from var(--angle),  transparent 90%, white);
+  background-image: conic-gradient(from var(--angle),  transparent 90%, blue);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  border-top-right-radius: 10px;
+  animation: 3s spin3 linear infinite;
+  border: 0.01rem solid rgb(36, 36, 36);
+  box-sizing: border-box;
+}
+
+.animated-card-3-child::after, .animated-card-3-child::before {
+  content: '';
+  position: absolute;
+  width: calc(100% + 6px); 
+  height: calc(100% + 7px);
+  background-image: conic-gradient(from var(--angle),  transparent 90%, rgb(242, 22, 202));
   top: 50%;
   left: 50%;
   translate: -50% -50%;
@@ -292,6 +340,21 @@
   box-sizing: border-box;
 }
 
+.animated-card-4-child::after, .animated-card-4-child::before {
+  content: '';
+  position: absolute;
+  width: calc(100% + 6px); 
+  height: calc(100% + 7px);
+  background-image: conic-gradient(from var(--angle),  transparent 90%, #01FFF4);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  border-top-left-radius: 10px; 
+  animation: 3s spin4 linear infinite;
+  border: 0.01rem solid rgb(36, 36, 36);
+  box-sizing: border-box;
+}
 
 
 
