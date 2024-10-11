@@ -228,6 +228,8 @@
 }
 
 
+
+
 .animated-card-1::after, .animated-card-1::before {
   content: '';
   position: absolute;
@@ -287,7 +289,7 @@
   translate: -50% -50%;
   z-index: -1;
   border-bottom-left-radius: 10px;
-  animation: 3s spin4 linear infinite;
+  animation: 5s spin4 linear infinite;
   border: 0.01rem solid rgb(36, 36, 36);
   box-sizing: border-box;
 }
@@ -319,7 +321,7 @@
   translate: -50% -50%;
   z-index: -1;
   border-top-right-radius: 10px;
-  animation: 3s spin3 linear infinite;
+  animation: 5s spin3 linear infinite;
   border: 0.01rem solid rgb(36, 36, 36);
   box-sizing: border-box;
 }
@@ -351,7 +353,7 @@
   translate: -50% -50%;
   z-index: -1;
   border-top-left-radius: 10px; 
-  animation: 3s spin4 linear infinite;
+  animation: 5s spin4 linear infinite;
   border: 0.01rem solid rgb(36, 36, 36);
   box-sizing: border-box;
 }
