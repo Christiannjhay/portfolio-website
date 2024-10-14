@@ -1,6 +1,5 @@
 import TakeAPeekSection from "@/components/HomePage/TakeAPeekSection";
 import Header from "../components/Common/Header";
-import ContactUsSection from "../components/HomePage/ContactUsSection";
 import HighlightsSection from "../components/HomePage/HighlightsSection";
 import IntroductionSection from "../components/HomePage/IntroductionSection";
 import Footer from "@/components/Common/Footer";
