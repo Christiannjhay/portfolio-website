@@ -15,13 +15,13 @@ export default function AboutPage() {
         </header>
         <IntroductionSection />
       </div>
-      <div className="w-full h-screen bg-[#0A0A0A] sticky top-0">
+      <div className="w-full bg-[#0A0A0A]">
         <TechStackSection />
       </div>
-      <div className="w-full h-screen bg-[#0A0A0A] sticky top-0">
+      <div className="w-full bg-[#0A0A0A]">
         <LanguagesSection />
       </div>
-      <div className="w-full min-h-screen flex flex-col justify-between bg-[#0A0A0A] sticky top-0">
+      <div className="w-full flex flex-col justify-between bg-[#0A0A0A]">
         <ExperienceSection />
         <Footer />
       </div>
