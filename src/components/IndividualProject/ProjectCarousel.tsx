@@ -42,10 +42,9 @@ const ProjectCarousel: React.FC<ProjectCarouselProps> = ({
           </CarouselItem>
         ))}
       </CarouselContent>
-      <div className="hidden">
-        <CarouselPrevious />
-        <CarouselNext />
-      </div>
+
+      <CarouselPrevious className="text-black bg-red-500 border-none left-5 hover:bg-red-700" />
+      <CarouselNext className="text-black right-5 bg-red-500 border-none hover:bg-red-700" />
     </Carousel>
   );
 };
