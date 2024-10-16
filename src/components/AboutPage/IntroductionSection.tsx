@@ -39,7 +39,7 @@ export default function IntroductionSection() {
       ref={sectionRef}
     >
       <div className=" lg:flex-1 flex flex-col gap-5 justify-center items-center">
-        <h1 className=" xl:w-4/6 xl:text-left text-white text-center text-[3rem] leading-[3rem] lg:text-[4rem] lg:leading-[4rem]  font-GeomBold ">
+        <h1 className="xl:w-4/6 text-left xl:text-left text-white text-[3rem] leading-[3rem] lg:text-[4rem] lg:leading-[4rem]  font-GeomBold ">
           A Glimpse into My Developer Journey and Skills
         </h1>
         <h2 className="font-GeomRegular xl:w-4/6 text-red-600 text-lg lg:text-2xl">
