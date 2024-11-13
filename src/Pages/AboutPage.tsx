@@ -9,10 +9,10 @@ import ScrollToTop from "@/components/ScrollToTop";
 export default function AboutPage() {
   return (
     <div className="min-h-screen w-full bg-[#0A0A0A]">
+      <header className="sticky top-0 z-50">
+        <Header />
+      </header>
       <div className="min-h-screen relative w-full top-0">
-        <header className="sticky top-0 z-50">
-          <Header />
-        </header>
         <IntroductionSection />
       </div>
       <div className="w-full bg-[#0A0A0A]">
