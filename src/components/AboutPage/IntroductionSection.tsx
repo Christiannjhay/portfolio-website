@@ -38,7 +38,7 @@ export default function IntroductionSection() {
       } `}
       ref={sectionRef}
     >
-      <div className=" lg:flex-1 flex flex-col gap-5 justify-center items-center">
+      <div className=" lg:flex-1 flex flex-col gap-5 justify-center items-start max-w-[1520px] mx-auto">
         <h1 className="xl:w-4/6 text-left xl:text-left text-white text-[3rem] leading-[3rem] lg:text-[4rem] lg:leading-[4rem]  font-GeomBold ">
           A Glimpse into My Developer Journey and Skills
         </h1>
@@ -66,16 +66,9 @@ export default function IntroductionSection() {
             <div>
               <LocationIcon />
             </div>
-            <h1 className="mt-1">Davao, PHI</h1>
+            <h1 className="mt-1">Quezon City, PHI</h1>
           </div>
         </h3>
-      </div>
-      <div className="relative z-50 flex lg:flex-1 justify-center">
-        <img
-          src={image}
-          alt="A brief description of the image"
-          className="w-3/4 object-cover sm:w-2/3 opacity-35 md:w-3/6 lg:w-5/6 xl:w-4/6"
-        />
       </div>
       <div className="absolute justify-center inset-0 w-full h-full flex z-0 top-[-115%]">
           <div className="h-[145%] w-[90%] blur-[100px] opacity-15 bg-red-500 rounded-full "></div>

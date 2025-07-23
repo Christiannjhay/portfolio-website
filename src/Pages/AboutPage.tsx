@@ -12,7 +12,7 @@ export default function AboutPage() {
       <header className="sticky top-0 z-50">
         <Header />
       </header>
-      <div className="min-h-screen relative w-full top-0">
+      <div className="relative w-full top-0">
         <IntroductionSection />
       </div>
       <div className="w-full bg-[#0A0A0A]">
