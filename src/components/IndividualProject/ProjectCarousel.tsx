@@ -42,9 +42,9 @@ const ProjectCarousel: React.FC<ProjectCarouselProps> = ({
           </CarouselItem>
         ))}
       </CarouselContent>
-      <div className="relative top-6 w-full bg-red-500 ">
-        <CarouselPrevious className="text-white bg-red-500 border-none left-[60%] sm:left-[83%] md:left-[85%] xl:left-[88%] hover:bg-red-700" />
-        <CarouselNext className="text-white right-[4%] bg-red-500 border-none hover:bg-red-700" />
+      <div className="absolute flex gap-2 max-w-[1600px] mx-auto top-[50%] w-full bg-red-500 ">
+        <CarouselPrevious className="ml-[70px] text-white bg-red-500 border-none hover:bg-red-700" />
+        <CarouselNext className=" text-white right-[4%] bg-red-500 border-none hover:bg-red-700" />
       </div>
     </Carousel>
   );
