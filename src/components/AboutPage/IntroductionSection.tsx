@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import image from "../../assets/images/myimage.png";
 import { GmailIcon } from "@/assets/Icons/Gmail";
 import { LocationIcon } from "@/assets/Icons/Location";
 import { PhoneIcon } from "@/assets/Icons/Phone";
