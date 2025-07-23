@@ -32,7 +32,7 @@ export default function TechStackSection() {
 
   return (
     <div
-      className={`w-full p-10 md:p-14 lg:px-14 xl:px-48 transition-opacity duration-1000 ${
+      className={`w-full p-10 md:p-14 max-w-[1900px] mx-auto lg:px-14 xl:px-48 transition-opacity duration-1000 ${
         isVisible ? "opacity-100" : "opacity-0"
       }  `}
       ref={sectionRef}

@@ -16,7 +16,7 @@ export default function AboutPage() {
         <IntroductionSection />
       </div>
       <div className="w-full bg-[#0A0A0A]">
-        <TechStackSection />
+        <TechStackSection/>
       </div>
       <div className="w-full bg-[#0A0A0A]">
         <LanguagesSection />

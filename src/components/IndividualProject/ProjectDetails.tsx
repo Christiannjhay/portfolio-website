@@ -9,7 +9,7 @@ interface ProjectDetailsProps {
 
 export default function ProjectDetails(props: ProjectDetailsProps) {
   return (
-    <div className="w-full font-GeomRegular p-5 flex flex-col overflow-hidden sm:px-10 md:px-20  lg:w-[77%]">
+    <div className="w-full max-w-[1650px] mx-auto font-GeomRegular p-5 flex flex-col overflow-hidden sm:px-10 md:px-20  lg:w-[77%]">
       <div className="flex flex-col gap-3 lg:grid lg:grid-cols-12 ">
         <div className="flex flex-col gap-3 lg:col-span-5 lg:gap-5">
           <div className="flex gap-2 md:text-xl lg:text-2xl">

@@ -48,7 +48,7 @@ export default function IntroductionSection() {
   }, [isVisible]);
 
   return (
-    <div className="relative w-full overflow-x-hidden flex justify-center">
+    <div className="relative w-full max-w-[1900px] mx-auto overflow-x-hidden flex justify-center">
       <div
         ref={sectionRef}
         className={`relative text-white py-10 sm:py-20 md:py-32 lg:py-40 xl:py-64 w-full h-full mt-9 text-xl lg:text-4xl xl:text-5xl font-GeomRegular text-center transition-opacity duration-1000 ${

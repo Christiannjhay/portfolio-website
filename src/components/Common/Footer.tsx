@@ -31,7 +31,7 @@ export default function Footer() {
 
   return (
     <div
-      className={`w-full items-center flex p-10 flex-col gap-3 sm:flex-row sm:justify-between transition-all duration-1000 ${
+      className={`w-full max-w-[1600px] mx-auto items-center flex p-10 flex-col gap-3 sm:flex-row sm:justify-between transition-all duration-1000 ${
         isVisible ? "scale-100 opacity-100" : "scale-0 opacity-0"
       } overflow-hidden`}
       ref={sectionRef}

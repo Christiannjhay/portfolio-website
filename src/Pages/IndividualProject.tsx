@@ -56,7 +56,7 @@ export default function IndividualProject() {
       </div>
       <div
         ref={carouselRef}
-        className={`w-full relative flex z-50 justify-center p-5 lg:pt-16 transition-opacity duration-1000 ${
+        className={`w-full max-w-[1900px] mx-auto relative flex z-50 justify-center p-5 lg:pt-16 transition-opacity duration-1000 ${
           isCarouselVisible ? "opacity-100" : "opacity-0"
         }`}
       >
