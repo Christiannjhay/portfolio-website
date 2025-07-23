@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import {
   Tooltip,
-  TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
@@ -37,7 +36,7 @@ export default function ProjectCard(props: any) {
       <Tooltip>
         <TooltipTrigger>
           <div
-            className={` overflow-hidden group transition-opacity duration-1000 ${
+            className={` overflow-hidden group transition-opacity duration-300 ${
               isVisible ? "opacity-100" : "opacity-0"
             }`}
             ref={sectionRef}
@@ -46,7 +45,7 @@ export default function ProjectCard(props: any) {
               <img
                 src={props.image}
                 alt={props.title}
-                className="w-full  h-auto aspect-video cursor-pointer ease-in-out transform group-hover:scale-105 group-hover:opacity-45 transition duration-300"
+                className="w-full h-auto aspect-video cursor-pointer ease-in-out transform group-hover:scale-105 group-hover:opacity-45 transition duration-300"
               />
             </div>
 
@@ -55,9 +54,6 @@ export default function ProjectCard(props: any) {
             </div>
           </div>
         </TooltipTrigger>
-        <TooltipContent className="bg-red-600 border-none">
-          <p className="text-white font-GeomLight">View project</p>
-        </TooltipContent>
       </Tooltip>
     </TooltipProvider>
   );
