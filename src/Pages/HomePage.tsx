@@ -9,13 +9,14 @@ import Seo from "@/components/Seo";
 
 export default function HomePage() {
 
-  <Seo 
-    title="Home"
-    url="https://www.christiansugarol.site"
-  />
+  
   
   return (
     <div className="w-full bg-[#0A0A0A] min-h-screen flex flex-col items-center">
+      <Seo 
+        title="Home"
+        url="https://www.christiansugarol.site"
+      />
       <div className="w-full sticky top-0 z-50">
         <Header />
       </div>
