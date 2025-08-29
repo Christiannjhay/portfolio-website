@@ -5,13 +5,14 @@ import Footer from "@/components/Common/Footer";
 import Seo from "@/components/Seo";
 
 export default function ProjectPage() {
-   <Seo 
-      title="Projects"
-      url="https://www.christiansugarol.site/projects"
-    />
+   
     
   return (
     <div className="relative w-full bg-[#0A0A0A] min-h-screen">
+      <Seo 
+        title="Projects"
+        url="https://www.christiansugarol.site/projects"
+      />
       <div className="w-full sticky top-0 z-50">
         <Header />
       </div>

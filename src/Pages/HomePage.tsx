@@ -8,9 +8,6 @@ import LandingSection from "@/components/HomePage/LandingSection";
 import Seo from "@/components/Seo";
 
 export default function HomePage() {
-
-  
-  
   return (
     <div className="w-full bg-[#0A0A0A] min-h-screen flex flex-col items-center">
       <Seo 
