@@ -8,6 +8,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import Footer from "@/components/Common/Footer";
 
 export default function IndividualProject() {
+
   const { projectId } = useParams<{ projectId: string }>();
   const individual = projectId
     ? Project.find((p) => p.id === parseInt(projectId))

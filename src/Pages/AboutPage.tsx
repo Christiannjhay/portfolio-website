@@ -5,8 +5,15 @@ import TechStackSection from "@/components/AboutPage/TechStackSection";
 import Footer from "@/components/Common/Footer";
 import Header from "@/components/Common/Header";
 import ScrollToTop from "@/components/ScrollToTop";
+import Seo from "@/components/Seo";
 
 export default function AboutPage() {
+
+  <Seo 
+      title="About"
+      url="https://www.christiansugarol.site/about"
+    />
+    
   return (
     <div className="min-h-screen w-full bg-[#0A0A0A]">
       <header className="sticky top-0 z-50">

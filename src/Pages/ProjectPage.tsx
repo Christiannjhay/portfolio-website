@@ -2,8 +2,14 @@ import ScrollToTop from "@/components/ScrollToTop";
 import Header from "../components/Common/Header";
 import ProjectSection from "../components/ProjectsPage/ProjectSection";
 import Footer from "@/components/Common/Footer";
+import Seo from "@/components/Seo";
 
 export default function ProjectPage() {
+   <Seo 
+      title="Projects"
+      url="https://www.christiansugarol.site/projects"
+    />
+    
   return (
     <div className="relative w-full bg-[#0A0A0A] min-h-screen">
       <div className="w-full sticky top-0 z-50">
